@@ -7,9 +7,9 @@ pipeline
      sh 'python3 --version'
    }
   }
- stage('hello'){
+ stage('faculty'){
   steps{
-     sh 'python3 abc2.py'
+     sh 'python3 faculty.py'
    } 
   }
 }
